@@ -103,9 +103,10 @@ document.querySelector(".inner-cursor").classList.remove("cursor-anim");
 
 // section one colum one event start
 
-colum_1.addEventListener("mouseover", function() {
-    
-    document.querySelector(".inner-cursor").setAttribute("style", "animation-name: more-scale;animation-duration: 0.5s;animation-fill-mode: forwards;animation-delay: 0;");
+colum_1.addEventListener("mouseover", function(e) {
+
+   
+    document.querySelector(".inner-cursor").setAttribute("style", "animation-name: more-scale;animation-duration: 0.5s;animation-fill-mode: forwards;animation-delay: 0; border-radius:100%; width:40px");
 
 })
 
@@ -140,3 +141,7 @@ document.querySelector('.div-moon').style.display = "none";
 
 
 // section tow event end
+
+
+// section three start
+
