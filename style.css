@@ -30,7 +30,7 @@ body{
     background-image: url(./image/GztY49M\ \(1\).gif);
     background-size: cover;
     top: 0%;
-    left: 10%;
+    left: -24%;
 /* transform: scale(0); */
     animation-name: banner-moon;
     animation-duration: 0.5s;
@@ -368,6 +368,30 @@ filter: blur(0px);
     color: white;
     cursor: none;
     font-size: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: down;
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    
+}
+
+
+@keyframes down {
+
+    0%,100% {
+        transform: translate(0px, -7px);
+    }
+    
+    50% {
+        transform: translate(0px, 7px);
+    }
+    
 }
 
 
@@ -659,6 +683,19 @@ z-index: 1;
     align-items: center;
     
 }
+
+.sec-2 .colum-1{
+    /* background-color: rgb(255, 255, 255); */
+    width: 25%;
+    height: 89%;
+}
+
+.sec-2 .colum-2{
+    /* background-color: rgb(255, 255, 255); */
+    width: 25%;
+    height: 89%;
+}
+
 .sec-2 .my-container{
     width: 50%;
     height: 90%;
@@ -673,7 +710,7 @@ z-index: 1;
 .sec-2 .div-main-2{
     
 width: 98%;
-height: 94%;
+height: 95%;
     background-image: url(./image/nasa-pd4lo70LdbI-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;

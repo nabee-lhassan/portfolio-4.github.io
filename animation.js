@@ -108,13 +108,15 @@ colum_1.addEventListener("mouseover", function(e) {
    
     document.querySelector(".inner-cursor").setAttribute("style", "animation-name: more-scale;animation-duration: 0.5s;animation-fill-mode: forwards;animation-delay: 0; border-radius:100%; width:40px");
 
+document.querySelector(".mouseNav .fa-arrow-down").style.display = "none";
+
 })
 
 
 colum_1.addEventListener("mouseout", function() {
     
     document.querySelector(".inner-cursor").setAttribute("style", "animation-name: less-scale;animation-duration: 0.5s;animation-fill-mode: forwards;animation-delay: 0;");
-
+    document.querySelector(".mouseNav .fa-arrow-down").style.display = "block";
 
 })
 
