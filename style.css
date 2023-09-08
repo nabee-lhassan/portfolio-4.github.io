@@ -15,7 +15,7 @@
 
 
 
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Bebas Neue', sans-serif;
@@ -689,6 +689,70 @@ z-index: 1;
     width: 25%;
     height: 89%;
 }
+
+.sec-2 .colum-1  .div-main-folder{
+
+    padding: 5% 10%;
+
+
+}
+
+.sec-2 .colum-1 .div-folder{
+
+    background-color: rgb(54, 54, 54);
+width: 100%;
+color: white;
+position: relative;
+
+padding: 6% 3%;
+height: 39px;
+overflow: hidden;
+transition: 0s;
+
+}
+
+.sec-2 .colum-1 .div-folder:hover{
+  
+    height: 100%;
+}
+
+
+.sec-2 .colum-1 .div-folder .div-title {
+    color: white;
+    letter-spacing: 4px;
+    
+    padding: 2% 2%;
+    border-bottom: 1px solid #ffffff69;
+}
+
+.sec-2 .colum-1 .div-folder .div-content  {
+
+    padding: 5% 0%;
+
+}
+.sec-2 .colum-1 .div-folder .div-content ul {
+
+    list-style: auto;
+    margin-left: 12px;
+
+
+}
+
+
+
+
+/* .sec-2 .colum-1 .div-folder::before{
+
+    background-color: rgb(54, 54, 54);
+width: 30%;
+height:35px;
+position: absolute;
+content: "";
+top: -35px;
+left: 0%;
+border-radius: 10px 10px 0px 0px;
+
+} */
 
 .sec-2 .colum-2{
     /* background-color: rgb(255, 255, 255); */
